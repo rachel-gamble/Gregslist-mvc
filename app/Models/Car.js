@@ -4,7 +4,7 @@ import { generateId } from "../Utils/generateId.js"
 
 export class Car {
 
-  constructor (data) {
+  constructor(data) {
     this.id = generateId()
     this.make = data.make
     // NOTE JS dates are cool? https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
@@ -23,7 +23,7 @@ export class Car {
   // FIXME Step 7? update our template with fields from the class
 
   get CardTemplate() {
-    return `
+    return /*html*/ `
     <div class="col-12 col-md-4 p-4">
       <div class="card">
         <img src="${this.img}" class="card-img-top"
@@ -71,7 +71,7 @@ export class Car {
   }
 
   static GetCarFormTemplate() {
-    return `
+    return /*html*/`
     <form onsubmit="app.carsController.createCar()">
       <div class="form-floating mb-3">
         <input required type="text" minlength="3" class="form-control" id="car-make" placeholder="Car Make"

@@ -21,10 +21,10 @@
       <a class="navbar-brand ms-3" href="#">
         <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
           loading="lazy">
-        <span class="ms-2">ltFall22_gregsList</span>
+        <span class="ms-2">GregsList</span>
       </a>
       <button class="btn btn-primary me-3" onclick="app.carsController.showCars()">Cars</button>
-      <button class="btn btn-primary">Homes</button>
+      <button class="btn btn-primary me-3" onclick="app.housesController.showHouses()">Homes</button>
     </nav>
   </header>
   <main>
@@ -70,6 +70,49 @@
             <button type="submit" class="btn btn-success mt-3">Submit</button>
             <button type="reset" class="btn btn-outline-danger mt-3">Reset</button>
           </form> -->
+          <!--STUB NEW HOUSE TEMPLATE-->
+          <!-- <form onsubmit="app.housesController.createHouse()">
+            <div class="form-floating mb-3">
+              <input required type="text" minlength="3" class="form-control" id="house-name" placeholder="House Title"
+                name="name">
+              <label for="house-name">Title</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input required type="number" class="form-control" id="house-price" placeholder="House Price"
+                name="price">
+              <label for="house-price">Price</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input required type="text" class="form-control" id="house-address" placeholder="House Address"
+                name="address">
+              <label for="house-address">Address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input required type="text" class="form-control" id="house-bedrooms" placeholder="House Bedrooms"
+                name="bedrooms">
+              <label for="house-bedrooms">Bedrooms</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input required type="url" class="form-control" id="house-img" placeholder="House Image" name="img">
+              <label for="House-img">Image</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input required type="number" class="form-control" id="house-year" placeholder="House Year" name="year">
+              <label for="house-year">Year built</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input required type="number" class="form-control" id="house-bathrooms" placeholder="House Bathrooms"
+                name="bathrooms">
+              <label for="house-bathrooms">Bathrooms</label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a description here" id="car-description"
+                name="description"></textarea>
+              <label for="car-description">Description</label>
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Submit</button>
+            <button type="reset" class="btn btn-outline-danger mt-3">Reset</button>
+          </form> -->
         </div>
       </div>
       <div class="row" id="listings">
@@ -90,7 +133,24 @@
             </div>
           </div>
         </div> -->
+
+        <!--House Template-->
+        <!-- <div class="col-4 p-4">
+          <div class="card">
+            <img src="https://images.craigslist.org/00L0L_erXVeoZ8I5hz_0CI0pO_600x450.jpg" class="card-img-top"
+              alt="vue">
+            <div class="card-body">
+              <h5 class="card-title d-flex justify-content-between mb-2">
+                <span>Safewater 2 Bed 2 Bath Townhome for Rent</span>
+                <span>$1800 monthly</span>
+              </h5>
+              <button class="btn btn-primary">
+                See Details
+              </button>
+            </div>
+          </div> -->
       </div>
+    </div>
     </div>
   </main>
   <footer class="bg-dark text-light">
@@ -121,7 +181,29 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         </div> -->
-      </div>
+
+        <!--HOUSE MODAL-->
+        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content" id="details">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Underworld Castle</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://i.pinimg.com/564x/28/db/c8/28dbc831db633844b924c5da3f1ea981.jpg" alt="house" class="img-fluid">
+          <b>Price: $6,666,666</b>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores unde labore dolore repudiandae,
+            molestias eveniet atque ab facilis cum nulla, at dicta ipsam in enim, repellat aliquam provident quis
+            perferendis.</p>
+          <div>Address: 666 Underworld Ln</div>
+          <div>Bedrooms: 66</div>
+          <div>Bathrooms: 55</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div> -->
     </div>
   </div>
 

@@ -9,8 +9,6 @@
     "commandCenter.border": "#e7e7e799",
     "sash.hoverBorder": "#8831fc",
     "statusBar.background": "#6c04f6",
-    "statusBar.debuggingBackground": "#8ef604",
-    "statusBar.debuggingForeground": "#15202b",
     "statusBar.foreground": "#e7e7e7",
     "statusBarItem.hoverBackground": "#8831fc",
     "statusBarItem.remoteBackground": "#6c04f6",
@@ -20,5 +18,13 @@
     "titleBar.inactiveBackground": "#6c04f699",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#6c04f6"
+  "peacock.color": "#6c04f6",
+  "cSpell.ignoreWords": [
+    "Gregs",
+    "Safewater",
+    "Townhome"
+  ],
+  "cSpell.words": [
+    "foundhouse"
+  ]
 }
