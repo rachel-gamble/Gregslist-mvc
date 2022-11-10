@@ -21,7 +21,7 @@ function _drawActiveHouse() {
 export class HousesController {
 
     constructor() {
-        console.log("your house  controller is working")
+        console.log("your house controller is working")
         appState.on('houses', _drawHouses)
         appState.on('activeHouse', _drawActiveHouse)
     }

@@ -50,11 +50,11 @@ export class House {
        
         </h5>
           <img src="${this.img}" alt="house" class="img-fluid">
-          <b>${this.price}</b>
-          <p>${this.description}</p>
-          <div>${this.address}</div>
-          <div>${this.bedrooms}</div>
-          <div>${this.bathrooms}</div>
+          <b>$${this.price}</b>
+          <p>Description: ${this.description}</p>
+          <div>Address: ${this.address}</div>
+          <div>Bedrooms: ${this.bedrooms}</div>
+          <div>Bathrooms: ${this.bathrooms}</div>
           <div>Year: ${this.year}</div>
         </div>
         <div class="modal-footer">
@@ -101,7 +101,7 @@ export class House {
       <label for="house-bathrooms">Bathrooms</label>
     </div>
     <div class="form-floating">
-      <textarea class="form-control" placeholder="Leave a description here" id="car-description"
+      <textarea class="form-control" placeholder="Leave a description here" id="house-description"
         name="description"></textarea>
       <label for="car-description">Description</label>
     </div>
