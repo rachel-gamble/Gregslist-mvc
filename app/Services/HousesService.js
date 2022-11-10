@@ -15,7 +15,7 @@ export class HouseService {
         appState.houses = [...appState.houses, newHouse]
         saveState('houses', appState.houses)
     }
-    removeCar(houseId) {
+    removeHouse(houseId) {
         // NOTE test that things are talking to each other
         // console.log("it's the car service", carId);
         // NOTE give me a new array of cars, where all of the cars Id's do not match the Id I passed down

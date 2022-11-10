@@ -26,9 +26,9 @@ export class HousesController {
         appState.on('activeHouse', _drawActiveHouse)
     }
 
-    async removeCar(houseID) {
+    async removeHouse(houseId) {
         if (await Pop.confirm('Are you sure want to delete this house?')) {
-            housesService.removeHouse(HouseId)
+            housesService.removeHouse(houseId)
 
         }
     }

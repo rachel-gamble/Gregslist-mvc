@@ -29,7 +29,7 @@ export class House {
             <button onclick="app.housesController.setActiveHouse('${this.id}')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             See Details
             </button>
-            <button onclick="app.houseController.removeHouse('${this.id}')" title="Delete house!" class="btn btn-danger">
+            <button onclick="app.housesController.removeHouse('${this.id}')" title="Delete house!" class="btn btn-danger">
               <i class="mdi mdi-delete"></i>
             </button>
           </div>
